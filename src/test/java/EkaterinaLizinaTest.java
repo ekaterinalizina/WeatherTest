@@ -848,5 +848,15 @@ public class EkaterinaLizinaTest {
 
     }
 
+    @Test
+    public void testDeskTopMenuClickAPIFind30ButtonsChecked1() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "C:/Drivers_for_Selenium/chromedriver_win32 (1)/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+
+        //Arrange
+        String url = "https://openweathermap.org/";
+        driver.get(url);
+    }
+
 }
 
