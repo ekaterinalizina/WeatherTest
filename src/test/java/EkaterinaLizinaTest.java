@@ -300,6 +300,7 @@ public class EkaterinaLizinaTest {
     //Открыть базовую ссылку
     //2.  Подтвердить, что в меню Support есть 3 подменю с названиями “FAQ”,
     // “How to start” и “Ask a question”
+
     @Test
     public void testSupportMenuHasThreeSubmenu() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/Drivers_for_Selenium/chromedriver_win32 (1)/chromedriver.exe");
